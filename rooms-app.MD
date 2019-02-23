@@ -42,12 +42,27 @@ const reviewSchema = new Schema({
 ```
 
 ## Views
-    - frontend - bootstrap
-    - home - map (all locations) + list of rooms
-    - signup, login and logout - local strategy and social login (fb and google)
-    - users - email confirmation (mailtrap), profile with image (cloudinary)
-    - rooms - search/filter -> 3rd level - map - google map, image
-        - reviews - rating - per user and average for room
+Responsive bootstrap.
+
+Home
+
+    - map with all locations
+    - list of rooms
+
+Auth
+
+    - signup
+    - email confirmation (mailtrap)
+    - login and logout - local strategy and social login (fb and google)
+
+Users
+
+    - profile with image (cloudinary)
+
+Rooms
+
+    - search/filter -> 3rd level - map - google map, image
+    - reviews - rating - per user and average for room
 
 ## Roles
     - users create rooms and edit their own
@@ -60,17 +75,17 @@ const reviewSchema = new Schema({
 
 ## Milestones
 
-    1st - Setup Node + Express + Views (bootstrap) + .env + basic routes
+    - 1st - Setup Node + Express + Views (bootstrap) + .env + basic routes
         When? 23/02
 
-    2nd - Models + CRUD + Images
+    - 2nd - Models + CRUD + Images
         When? 23 - 28/02
 
-    3rd - Maps
+    - 3rd - Maps
         When? 02/03
 
-    4th - Auth + Email
+    - 4th - Auth + Email
         When? 02 - 7/03
 
-    5th - Tests and Deploy
+    - 5th - Tests and Deploy
         When? 9/03
