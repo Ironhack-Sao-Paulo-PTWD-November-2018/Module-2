@@ -1,11 +1,9 @@
-# Project Review
-
-## Rooms App
+# Project Review - Rooms App
 
 Full crud
 
-### Models
-Users
+## Models
+### Users
 
 ```js
 const userSchema = new Schema({
@@ -20,7 +18,7 @@ const userSchema = new Schema({
 });
 ```
 
-Rooms
+### Rooms
 
 ```js
 const roomSchema = new Schema({
@@ -33,7 +31,7 @@ const roomSchema = new Schema({
 });
 ```
 
-Reviews
+### Reviews
 
 ```js
 const reviewSchema = new Schema({
@@ -43,7 +41,7 @@ const reviewSchema = new Schema({
 });
 ```
 
-### Views
+## Views
     - frontend - bootstrap
     - home - map (all locations) + list of rooms
     - signup, login and logout - local strategy and social login (fb and google)
@@ -51,11 +49,11 @@ const reviewSchema = new Schema({
     - rooms - search/filter -> 3rd level - map - google map, image
         - reviews - rating - per user and average for room
 
-### Roles
+## Roles
     - users create rooms and edit their own
     - users review other people rooms
 
-### Deploy
+## Deploy
 
     heroku
 
