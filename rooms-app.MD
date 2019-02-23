@@ -41,37 +41,44 @@ const reviewSchema = new Schema({
 });
 ```
 
+---
+
 ## Views
 Responsive bootstrap.
 
-Home
+### Home
 
-    - map with all locations
-    - list of rooms
+- map with all locations
+- list of rooms
 
-Auth
+### Auth
 
-    - signup
-    - email confirmation (mailtrap)
-    - login and logout - local strategy and social login (fb and google)
+- signup
+- email confirmation (mailtrap)
+- login and logout - local strategy and social login (fb and google)
 
-Users
+### Users
 
-    - profile with image (cloudinary)
+- profile with image (cloudinary)
 
-Rooms
+### Rooms
 
-    - search/filter -> 3rd level - map - google map, image
-    - reviews - rating - per user and average for room
+- search/filter -> 3rd level - map - google map, image
+- reviews - rating - per user and average for room
+
+---
 
 ## Roles
-    - users create rooms and edit their own
-    - users review other people rooms
+- users create rooms and edit their own
+- users review other people rooms
+
+---
 
 ## Deploy
 
-    heroku
+heroku
 
+---
 
 ## Milestones
 
