@@ -16,7 +16,7 @@
 Now that you are more familiar with the backend,
 you can make a complete Web application for your 2nd project.
 
-You will **do this project individually**.
+<!-- You will **do this project individually**. -->
 
 Here are some examples of past projects:
 
