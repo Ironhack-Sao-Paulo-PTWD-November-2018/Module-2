@@ -4,4 +4,4 @@
 
 [Project Review - Rooms App](/rooms-app.MD)
 
-[Project Guideline](/project-guideline.MD)
+[Project #2: Full-stack Web Application](/project-guideline.MD)
