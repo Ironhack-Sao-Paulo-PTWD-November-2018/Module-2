@@ -20,7 +20,7 @@ you can make a complete Web application for your 2nd project.
 
 Here are some examples of past projects:
 
-- [State of Mine](https://state-of-mine-.herokuapp.com/)
+- [State of Mine](https://state-of-mine.herokuapp.com/)
 - [Attract-Athletic](https://attract-active.herokuapp.com/)
 - [Quick-Fit](https://quickfit-1.herokuapp.com/)
 - [Dynamic Warehousing](https://dynamicwarehousing.herokuapp.com/)
